@@ -1003,11 +1003,126 @@
 }
 
 
-
-
-
-
-
-
-
 /*=======Contact CSS=========*/
+
+
+/*=======SUCCESS CSS=========*/
+
+
+@media only screen and (max-width: 1440px) {
+    .thanks .back-page h5 {
+        top: 65%;
+        left: 50%;
+    }
+    .thanks .back-page a {
+        padding: 11px;
+    }
+}
+
+@media only screen and (max-width: 1221px) {
+    .thanks-container .content-text p {
+        text-align: center;
+        font-size: 17px;
+    }
+    .thanks-container .content-text h1 {
+        font-size: 33px;
+    }
+}
+
+@media only screen and (max-width: 1049px) {
+    .thanks-container .content-text p {
+        font-size: 13px;
+    }
+    .thanks-container .content-text h1 {
+        margin-bottom: 18px;
+        font-size: 28px;
+    }
+    .thanks .back-page h5 {
+        position: relative;
+        top: 423px;
+        left: 5%;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1030px){
+    .thanks-container .content-text {
+        position: relative;
+        top: 383px;
+        left: 42%;
+        padding: 117px;
+    }
+    .thanks .back-page h5 {
+        top: 136px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    html, body {
+        overflow-x: hidden;
+        min-height: 100vh;
+    }
+    .thanks .thanks-container {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .thanks-container .content-text {
+	    position: relative;
+        top: 400px;
+        left: 50%;
+    }
+    .thanks-container .content-text h1 {
+	    font-size: 35px;
+    }
+    .thanks .back-page h5 {
+	    position: absolute;
+	    top: 479px;
+	    left: 50%;
+    }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 548px) {
+    html, body {
+        overflow-x: hidden;
+        min-height: 100vh;
+    }
+    .thanks-container .content-text h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 509px) {
+    html, body {
+        overflow-x: hidden;
+        min-height: 100vh;
+    }
+    .thanks-container .content-text h1 {
+        font-size: 23px;
+    }
+    .thanks .back-page h5 {
+        top: 483px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 413px) {
+    html, body {
+        overflow-x: hidden;
+        min-height: 100vh;
+    }
+    .thanks-container .content-text h1 {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .thanks-container .content-text p {
+        font-size: 9px;
+    }
+    .thanks .back-page h5 {
+        top: 460px;
+    }
+}
+
+
+/*=======SUCCESS CSS=========*/
+
+

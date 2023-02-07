@@ -929,6 +929,7 @@ input[type="tel"] {
     min-height: 100vh;
     overflow: hidden;
     position: relative;
+    background-color: #03a9f4;
    
 }
 
