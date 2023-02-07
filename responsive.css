@@ -904,12 +904,54 @@
     .bags .bags-img-container {
         font-size: 6px;
     }
+    .foot h1 {
+        font-size: 21px;
+    }
+    .box-benefit .foot {
+        position: relative;
+        left: -3px;
+        width: 100%;
+    }
+    .desc .bag-img-desc .img-bags img {
+        width: 166%;
+        position: relative;
+        left: -41px;
+    }
+    .bags .bags-img-container {
+        font-size: 9px;
+    }
+    .box-benefit .foot p {
+        font-size: 9px;
+        text-align: justify;
+        font-weight: 500;
+    }
+    .box-benefit .foot {
+        position: relative;
+        left: -10px;
+        width: 112%;
+    }
+}
+
+@media only screen and (max-width: 328px) {
+    html, body {
+        overflow-x: hidden;
+        min-height: 100vh;
+    }
+    .bags .bags-img-container {
+        font-size: 7px;
+    }
 }
 
 
 /*=======BAG CSS=========*/
 
 /*=======Contact CSS=========*/
+
+@media only screen and (min-width: 1201px) and (max-width: 1348px) {
+    .main-sec .mail .action {
+        width: 73%;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .main-sec .mail .action {
@@ -932,7 +974,7 @@
         min-height: 100vh;
     }
     .mail .action form textarea {
-        width: 39%;
+        width: 55%;
         height: 100px;
     }
 }
@@ -998,7 +1040,7 @@
         position: inherit;
     }
     .mail .action form textarea {
-        width: 68%;
+        width: 59%;
     }
 }
 @media only screen and (max-width: 435px) {
@@ -1015,6 +1057,19 @@
     }
     .run-txt li {
         font-size: 35px;
+    }
+    .mail .action form textarea {
+        width: 64%;
+    }
+}
+
+@media only screen and (min-width: 331px) and (max-width: 434px) {
+    html, body {
+        overflow-x: hidden;
+        min-height: 100vh;
+    }
+    .mail .action form textarea {
+        width: 85%;
     }
 }
 
@@ -1036,7 +1091,7 @@
         left: 7%;
     }
     .mail .action form textarea {
-        width: 84%;
+        width: 85%;
     }
 }
 

@@ -706,7 +706,7 @@ marquee span {
 .bags {
     min-height: 75vh;
     background:#181818;
-    padding: 0 40px;
+    padding: 0 0;
 }
 
 .bags .bags-img-container {
@@ -873,6 +873,7 @@ input[type="email"]  {
     border: none;
     outline: none;
     border: 1px solid #181818;
+    margin-top: 10px;
 }
 .mail .links-2 .first-link {
     color: #fff;
@@ -886,10 +887,10 @@ input[type="email"]  {
     border: 1px solid #ff8f00;
     margin-top: 12px;
 }
-.mail .action .msg {
+/*.mail .action .msg {
     position: relative;
     top: -50px;
-}
+}*/
 
 input[type="submit"] {
     display: inline;
