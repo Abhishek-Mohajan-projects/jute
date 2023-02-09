@@ -1000,23 +1000,14 @@ input[type="tel"] {
 
 .two {
     color: #fff;
-    line-height: 36px;
-}
-
-.big3 {
-    line-height: 40px;
-}
-
-.size2 {
-    line-height: 35px;
-}
-
-.top {
-    margin-top: 50px;
+    line-height: 28px;
+    font-size: 17px;
 }
 
 
-
+.dynamic {
+    font-size: 28px;
+}
 
 
 
