@@ -1,1227 +1,1304 @@
 /*Home Responsive*/
 
 @media only screen and (max-width: 1440px) {
-    .gallery .intro p {
-        font-size: 17px;
-    }
-    .gallery .intro p {
-        font-size: 15px;
-        width: 69%;
-        margin: auto;
-        line-height: 33px;
-    }
-    .main .content p {
-        width: 69%;
-        margin: auto;
-        font-size: 20px;
-    }
+  .gallery .intro p {
+    font-size: 17px;
+  }
+  .gallery .intro p {
+    font-size: 15px;
+    width: 69%;
+    margin: auto;
+    line-height: 33px;
+  }
+  .main .content p {
+    width: 69%;
+    margin: auto;
+    font-size: 20px;
+  }
 }
 
-
 @media only screen and (max-width: 1040px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
 
-    .header-toggle  {
-        display: inline;
-        color: #eee;
-        font-size: 24px;
-        cursor: pointer;
-    }
-    .header-close {
-        position: absolute;
-        right: 24px;
-        display: block;
-        font-size: 24px;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-    .header-close:hover {
-        background:#00adb5;
-    }
-    nav {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        background-color: #222831;
-        color: #eee;
-        width: 60%;
-        height: 90vh;
-        padding: 24px 0;
-        z-index: 100;
-        transition: 0.5s;
-        border-radius: 0 0 0 50%;
-    }
-    .nav-list {
-        display: flex;
-        flex-direction: column;
-    }
+  .header-toggle {
+    display: inline;
+    color: #eee;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .header-close {
+    position: absolute;
+    right: 24px;
+    display: block;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .header-close:hover {
+    background: #00adb5;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #222831;
+    color: #eee;
+    width: 60%;
+    height: 90vh;
+    padding: 24px 0;
+    z-index: 100;
+    transition: 0.5s;
+    border-radius: 0 0 0 50%;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .nav-item {
-        margin: 2rem 18rem;
-    }
-    .show {
-        right: 0;
-    }
-    section .container .content p {
-        font-size: 12px;
-        line-height: 31px;
-    }
-    .gallery .intro p {
-        font-size: 16px;
-    }
-    .main .content p {
-        font-size: 17px;
-    }
-    .main .content h1 {
-        font-size: 33px;
-    }
-    .gallery .intro p {
-        font-size: 15px;
-        line-height: 33px;
-    }
-    .contact .btn {
-        font-size: 20px;
-    }
+  .nav-item {
+    margin: 2rem 18rem;
+  }
+  .show {
+    right: 0;
+  }
+  section .container .content p {
+    font-size: 12px;
+    line-height: 31px;
+  }
+  .gallery .intro p {
+    font-size: 16px;
+  }
+  .main .content p {
+    font-size: 17px;
+  }
+  .main .content h1 {
+    font-size: 33px;
+  }
+  .gallery .intro p {
+    font-size: 15px;
+    line-height: 33px;
+  }
+  .contact .btn {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .contact p {
-        font-size: 15px;
-        line-height: 33px;
-    }
-    .contact .btn {
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-    .gallery .intro p {
-        font-size: 12px;
-        font-weight: 600;
-    }
-    section .container .content p {
-        font-size: 13px;
-        line-height: 27px;
-        font-weight: 500;
-    }
-    section .container .img-sec {
-        width: 34%;
-    }
-    section .container .border {
-        height: 330px;
-    }
-    marquee {
-        font-size: 20px;
-    }
-    .nav-item {
-        margin: 2rem 19rem;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .contact p {
+    font-size: 15px;
+    line-height: 33px;
+  }
+  .contact .btn {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .gallery .intro p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  section .container .content p {
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 500;
+  }
+  section .container .img-sec {
+    width: 34%;
+  }
+  section .container .border {
+    height: 330px;
+  }
+  marquee {
+    font-size: 20px;
+  }
+  .nav-item {
+    margin: 2rem 19rem;
+  }
+  .main-sec .mail .action form {
+    width: 50%;
+  }
+  .main-sec .mail .action {
+    position: initial;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+  }
+  .mail .action form textarea {
+    width: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 811px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    section .container .border {
-        display: none;
-    }
-    section .container .img-sec {
-        width: 100%;
-        margin: auto;
-    }
-    section .container {
-        display: block;
-    }
-    section .container .content {
-        width: 100%;
-        margin: auto;
-    }
-    section .container .content p {
-        text-align: center;
-    }
-    .gallery .intro p {
-        width: 100%;
-        font-size: 13px;
-        line-height: 24px;
-    }
-    .main .content p {
-        width: 80%;
-        font-size: 14px;
-    }
-    .contact .contact-right-img {
-        width: 100%;
-    }
-    .contact p {
-        font-size: 13px;
-        line-height: 30px;
-    }
-    .nav-item {
-        margin: 2rem 12rem;
-    }
-
-
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  section .container .border {
+    display: none;
+  }
+  section .container .img-sec {
+    width: 100%;
+    margin: auto;
+  }
+  section .container {
+    display: block;
+  }
+  section .container .content {
+    width: 100%;
+    margin: auto;
+  }
+  section .container .content p {
+    text-align: center;
+  }
+  .gallery .intro p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .main .content p {
+    width: 80%;
+    font-size: 14px;
+  }
+  .contact .contact-right-img {
+    width: 100%;
+  }
+  .contact p {
+    font-size: 13px;
+    line-height: 30px;
+  }
+  .nav-item {
+    margin: 2rem 12rem;
+  }
+  .main-sec .mail .action form {
+    width: 50%;
+  }
+  .main-sec .mail .action {
+    position: initial;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+  }
+  .mail .action form textarea {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 801px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .nav-item {
-        margin: 2rem 13rem;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .nav-item {
+    margin: 2rem 13rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .gallery .bag-img {
-        grid-template-columns: auto;
-    }
-    .nav-item {
-        margin: 2rem 13rem;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .gallery .bag-img {
+    grid-template-columns: auto;
+  }
+  .nav-item {
+    margin: 2rem 13rem;
+  }
+  .main-sec .mail .action {
+    position: initial;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+  }
+  .mail .action form textarea {
+    width: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 720px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .contact p {
-        font-size: 11px;
-        line-height: 27px;
-        font-weight: 600;
-    }
-    .contact .btn {
-        font-size: 12px;
-    }
-    .nav-item {
-        margin: 2rem 12rem;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .contact p {
+    font-size: 11px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+  .contact .btn {
+    font-size: 12px;
+  }
+  .nav-item {
+    margin: 2rem 12rem;
+  }
+  .main-sec .mail .action {
+    position: initial;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+  }
+  .mail .action form textarea {
+    width: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 567px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    marquee {
-        font-size: 16px;
-        font-weight: 600;
-    }
-    section .container .content p {
-        font-size: 11px;
-        line-height: 24px;
-    }
-    .contact h1 {
-        font-size: 23px;
-    }
-    .contact p {
-        font-size: 10px;
-        line-height: 26px;
-    }
-    .contact .btn {
-        font-size: 10px;
-        font-weight: 400;
-        letter-spacing: 2px;
-    }
-    .nav-item {
-        margin: 2rem 9rem;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  marquee {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  section .container .content p {
+    font-size: 11px;
+    line-height: 24px;
+  }
+  .contact h1 {
+    font-size: 23px;
+  }
+  .contact p {
+    font-size: 10px;
+    line-height: 26px;
+  }
+  .contact .btn {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  .nav-item {
+    margin: 2rem 9rem;
+  }
 }
 
 @media only screen and (max-width: 414px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .nav-item {
-        margin: 2rem 6rem;
-    }
-    marquee {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    section .container .content p {
-        font-size: 11px;
-        line-height: 24px;
-        font-weight: 400;
-        text-align: justify;
-    }
-    .gallery .intro p {
-        font-size: 12px;
-        line-height: 22px;
-    }
-    .gallery .intro h1 {
-        font-size: 20px;
-    }
-    .main .content h1 {
-        font-size: 26px;
-    }
-    .main {
-        margin-top: 13px;
-    }
-    .gallery .intro p {
-        text-align: justify;
-    }
-    .contact {
-        display: block;
-    }
-    .contact .contact-right-img {
-        margin-top: 45px;
-    }
-    .contact {
-        text-align: center;
-    }
-    .font-icon .icons ul li a span {
-        font-size: 16px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .nav-item {
+    margin: 2rem 6rem;
+  }
+  marquee {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  section .container .content p {
+    font-size: 11px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .gallery .intro p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .gallery .intro h1 {
+    font-size: 20px;
+  }
+  .main .content h1 {
+    font-size: 26px;
+  }
+  .main {
+    margin-top: 13px;
+  }
+  .gallery .intro p {
+    text-align: justify;
+  }
+  .contact {
+    display: block;
+  }
+  .contact .contact-right-img {
+    margin-top: 45px;
+  }
+  .contact {
+    text-align: center;
+  }
+  .font-icon .icons ul li a span {
+    font-size: 16px;
+  }
 
-    .contact-us .font-icon .icons ul li {
-        margin-right: 39px;
-    }
-    .contact-us .font-icon .copyright {
-        font-size: 10px;
-    }
+  .contact-us .font-icon .icons ul li {
+    margin-right: 39px;
+  }
+  .contact-us .font-icon .copyright {
+    font-size: 10px;
+  }
 }
 @media only screen and (max-width: 328px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .contact-us .font-icon .icons ul li {
-        margin-right: 22px;
-    }
-    [data-aos="fade-left"] {
-        transform: translate3d(331px,0,0);
-    }
-    [data-aos="fade-down"] {
-        transform: translate3d(0,-263px,0);
-    }
-    .nav-item {
-        margin: 2rem 4rem;
-    }
-    header .logo {
-        width: 14%;
-    }
-    .pro-text .btn-btn {
-        margin-right: 8px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .contact-us .font-icon .icons ul li {
+    margin-right: 22px;
+  }
+  [data-aos="fade-left"] {
+    transform: translate3d(331px, 0, 0);
+  }
+  [data-aos="fade-down"] {
+    transform: translate3d(0, -263px, 0);
+  }
+  .nav-item {
+    margin: 2rem 4rem;
+  }
+  header .logo {
+    width: 14%;
+  }
+  .pro-text .btn-btn {
+    margin-right: 8px;
+  }
 }
 
 @media only screen and (max-width: 325px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .nav-item {
-        margin: 2rem 4rem;
-    }
-    .main .content h1 {
-        font-size: 23px;
-    }
-    .main .content p {
-        font-size: 12px;
-    }
-    .pro-text h4 {
-        font-size: 15px;
-    }
-    .contact p {
-        margin-left: -14px;
-    }
-    .contact-us .font-icon .icons ul li {
-        margin-right: -16px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .nav-item {
+    margin: 2rem 4rem;
+  }
+  .main .content h1 {
+    font-size: 23px;
+  }
+  .main .content p {
+    font-size: 12px;
+  }
+  .pro-text h4 {
+    font-size: 15px;
+  }
+  .contact p {
+    margin-left: -14px;
+  }
+  .contact-us .font-icon .icons ul li {
+    margin-right: -16px;
+  }
 }
 
 /*Home Responsive*/
 
-
 /*Products Responsive*/
 
 @media only screen and (max-width: 1200px) {
-    .pro-text .paragraph1 {
-        left: -19%;
-        top: -58px;
+  .pro-text .paragraph1 {
+    left: -19%;
+    top: -58px;
+  }
+  @keyframes anim5 {
+    0% {
+      left: -100%;
     }
-    @keyframes anim5 {
-        0% {
-            left: -100%;
-        }
-        100% {
-            left: -19%;
-        }
+    100% {
+      left: -19%;
     }
-    .pro-text .paragraph2 {
-        right: -68%;
+  }
+  .pro-text .paragraph2 {
+    right: -68%;
+  }
+  @keyframes anim6 {
+    0% {
+      opacity: 0;
     }
-    @keyframes anim6 {
-        0% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-          }
+    100% {
+      opacity: 1;
     }
-    .footer-img {
-        width: 50%;
-        overflow: hidden;
-    }
-    .footer-img img {
-        width: 100%;
-    }
+  }
+  .footer-img {
+    width: 50%;
+    overflow: hidden;
+  }
+  .footer-img img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1040px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .pro-text .paragraph1 {
-        left: -19%;
-        top: -13px;
-    }
-    .pro-text .paragraph2 {
-        right: -68%;
-        top: -15px;
-    }
-    @keyframes anim5 {
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text .paragraph1 {
+    left: -19%;
+    top: -13px;
+  }
+  .pro-text .paragraph2 {
+    right: -68%;
+    top: -15px;
+  }
+  @keyframes anim5 {
     0% {
-        left: -100%;
-      }
+      left: -100%;
+    }
     100% {
-        left: -19%;
-      }
+      left: -19%;
     }
-    @keyframes anim6 {
-        0% {
-            opacity: 0;
-            
-        }
-        100% {
-            
-            opacity: 1;
-        }
+  }
+  @keyframes anim6 {
+    0% {
+      opacity: 0;
     }
-    .footer-img {
-        width: 50%;
-        overflow: hidden;
+    100% {
+      opacity: 1;
     }
-    .footer-img img {
-        width: 100%;
-    }
-    .product-sec2 .product-container .headline p {
-        font-size: 14px;
-    }
-
+  }
+  .footer-img {
+    width: 50%;
+    overflow: hidden;
+  }
+  .footer-img img {
+    width: 100%;
+  }
+  .product-sec2 .product-container .headline p {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text .paragraph1 {
+    left: -15%;
+  }
+  @keyframes anim5 {
+    0% {
+      left: -100%;
     }
-    .pro-text .paragraph1 {
-        left: -15%;
+    100% {
+      left: -15%;
     }
-    @keyframes anim5 {
-        0% {
-            left: -100%;
-          }
-        100% {
-            left: -15%;
-          }
-        }
+  }
 }
 
 @media only screen and (max-width: 977px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .pro-text .paragraph1 {
-        font-size: 13px;
-        padding: 40px 39px;
-        width: 34%;
-        left: -2px;
-        top: 101px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text .paragraph1 {
+    font-size: 13px;
+    padding: 40px 39px;
+    width: 34%;
+    left: -2px;
+    top: 101px;
+  }
 
-    @keyframes anim5 {
-        0% {
-        left: -100%;
-      }
-        100% {
-        left: -2%;
-      }
+  @keyframes anim5 {
+    0% {
+      left: -100%;
     }
-    .pro-text .paragraph2 {
-        font-size: 10px;
-        padding: 54px 24px;
-        width: 37%;
+    100% {
+      left: -2%;
     }
-    .product-container .buy button {
-        padding: 19px 9px;
-    }
-    .product-container .buy button a {
-        font-size: 14px;
-    }
-    .product-sec2 .product-container .headline p {
-        font-size: 12px;
-        font-weight: 400;
-    }
-    .product-container .buy button {
-        padding: 19px 12px;
-    }
-    .product-container .buy button a {
-        font-size: 13px;
-    }
+  }
+  .pro-text .paragraph2 {
+    font-size: 10px;
+    padding: 54px 24px;
+    width: 37%;
+  }
+  .product-container .buy button {
+    padding: 19px 9px;
+  }
+  .product-container .buy button a {
+    font-size: 14px;
+  }
+  .product-sec2 .product-container .headline p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .product-container .buy button {
+    padding: 19px 12px;
+  }
+  .product-container .buy button a {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text h1 {
+    font-size: 70px;
+    line-height: 50px;
+  }
+  .pro-text h4 {
+    font-size: 34px;
+    line-height: 49px;
+  }
+  .pro-text .paragraph2 {
+    right: -57%;
+    top: 52px;
+  }
+  [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 1;
+    transition-property: opacity, transform;
+  }
+  @keyframes anim {
+    0% {
+      opacity: 0;
+      bottom: -180px;
     }
-    .pro-text h1 {
-        font-size: 70px;
-        line-height: 50px;
+    100% {
+      opacity: 1;
+      bottom: 0;
     }
-    .pro-text h4 {
-        font-size: 34px;
-        line-height: 49px;
+  }
+  @keyframes anim2 {
+    0% {
+      opacity: 0;
     }
-    .pro-text .paragraph2 {
-        right: -57%;
-        top: 52px;
+    100% {
+      opacity: 1;
     }
-    [data-aos^="fade"][data-aos^="fade"] {
-        opacity: 1;
-        transition-property: opacity,transform;
-    }
-    @keyframes anim {
-        0% {
-            opacity: 0;
-            bottom: -180px;
-        }
-        100% {
-            opacity: 1;
-            bottom: 0;
-        }
-    }
-    @keyframes anim2 {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-
-  
+  }
 }
 
 @media only screen and (max-width: 728px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  .pro-text .paragraph1 {
+    left: 15px;
+    top: 112px;
+  }
+  @keyframes anim5 {
+    0% {
+      left: -100%;
     }
-    
-    .pro-text .paragraph1 {
-        left: 15px;
-        top: 112px;
+    100% {
+      left: 15px;
     }
-    @keyframes anim5 {
-        0% {
-            left: -100%;
-          }
-          100% {
-            left: 15px;
-          }
-    }
-    .product-sec2 .product-container .headline {
-        line-height: 29px;
-    }
-    .product-container .buy {
-        color: #eee;
-        display: block;
-        text-align: center;
-    }
-    .footer-img {
-        width: 100%;
-        margin: auto;
-    }
-    .product-container .buy button {
-        margin-bottom: 12px;
-    }
-    .break {
-        border-bottom: 2px solid cyan;
-    }
+  }
+  .product-sec2 .product-container .headline {
+    line-height: 29px;
+  }
+  .product-container .buy {
+    color: #eee;
+    display: block;
+    text-align: center;
+  }
+  .footer-img {
+    width: 100%;
+    margin: auto;
+  }
+  .product-container .buy button {
+    margin-bottom: 12px;
+  }
+  .break {
+    border-bottom: 2px solid cyan;
+  }
 }
 
 @media only screen and (max-width: 722px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text .paragraph1 {
+    left: 113px;
+    top: 300px;
+  }
+  @keyframes anim5 {
+    0% {
+      left: -100%;
     }
-    .pro-text .paragraph1 {
-        left: 113px;
-        top: 300px;
+    100% {
+      left: 113px;
     }
-    @keyframes anim5 {
-        0% {
-            left: -100%;
-        }
-        100% {
-            left: 113px;
-        }
-    }
-    .pro-text .paragraph2 {
-        right: -46%;
-        top: -51px;
-    }
-    .product-sec2 .product-container .headline h1 {
-        font-size: 28px;
-    }
-    .product-sec2 .product-container .headline h3 {
-        font-size: 26px;
-    }
-    .product-sec2 .product-container .headline p {
-        font-size: 11px;
-        font-weight: 600;
-    }
+  }
+  .pro-text .paragraph2 {
+    right: -46%;
+    top: -51px;
+  }
+  .product-sec2 .product-container .headline h1 {
+    font-size: 28px;
+  }
+  .product-sec2 .product-container .headline h3 {
+    font-size: 26px;
+  }
+  .product-sec2 .product-container .headline p {
+    font-size: 11px;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 567px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .pro-text h1 {
-        font-size: 46px;
-        line-height: 45px;
-    }
-    .pro-text h4 {
-        font-size: 28px;
-        line-height: 43px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text h1 {
+    font-size: 46px;
+    line-height: 45px;
+  }
+  .pro-text h4 {
+    font-size: 28px;
+    line-height: 43px;
+  }
 }
 
-
 @media only screen and (max-width: 527px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text .paragraph1 {
+    left: 256px;
+    top: 403px;
+  }
+  @keyframes anim5 {
+    0% {
+      left: -100%;
     }
-    .pro-text .paragraph1 {
-        left: 256px;
-        top: 403px;
+    100% {
+      left: 256px;
     }
-    @keyframes anim5 {
-        0% {
-            left: -100%;
-        }
-        100% {
-            left: 256px;
-        }
-    }
-    .product-sec2 .product-container .headline p {
-        font-size: 10px;
-        font-weight: 600;
-        line-height: 25px;
-    }
+  }
+  .product-sec2 .product-container .headline p {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 25px;
+  }
 }
 
 @media only screen and (max-width: 501px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .pro-text h1 {
-        font-size: 38px;
-        line-height: 27px;
-        font-weight: 700;
-    }
-    .pro-text h4 {
-        font-size: 24px;
-        line-height: 35px;
-        font-weight: 700;
-    }
-    .pro-text .paragraph2 {
-        right: -38%;
-    }
-    .product-sec2 .product-container .headline h1 {
-        font-size: 24px;
-    }
-    .product-sec2 .product-container .headline h1 {
-        margin-bottom: 7px;
-    }
-    .product-sec2 .product-container .headline h3 {
-        font-size: 22px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text h1 {
+    font-size: 38px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  .pro-text h4 {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 700;
+  }
+  .pro-text .paragraph2 {
+    right: -38%;
+  }
+  .product-sec2 .product-container .headline h1 {
+    font-size: 24px;
+  }
+  .product-sec2 .product-container .headline h1 {
+    margin-bottom: 7px;
+  }
+  .product-sec2 .product-container .headline h3 {
+    font-size: 22px;
+  }
 }
 
 @media only screen and (max-width: 460px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .product-sec2 .product-container .headline h1 {
-        font-size: 18px;
-    }
-    .product-sec2 .product-container .headline h3 {
-        font-size: 18px;
-    }
-    .product-sec2 .product-container .headline p {
-        font-weight: 500;
-        line-height: 23px;
-    }
-    
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .product-sec2 .product-container .headline h1 {
+    font-size: 18px;
+  }
+  .product-sec2 .product-container .headline h3 {
+    font-size: 18px;
+  }
+  .product-sec2 .product-container .headline p {
+    font-weight: 500;
+    line-height: 23px;
+  }
 }
 
 @media only screen and (max-width: 418px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .pro-text h1 {
-        font-size: 32px;
-        line-height: 22px;
-        font-weight: 800;
-    }
-    .pro-text h4 {
-        font-size: 19px;
-        line-height: 35px;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-    
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text h1 {
+    font-size: 32px;
+    line-height: 22px;
+    font-weight: 800;
+  }
+  .pro-text h4 {
+    font-size: 19px;
+    line-height: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
 }
 @media only screen and (max-width: 328px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .pro-text h4 {
-        font-size: 15px;
-    }
-    .pro-text .paragraph2 {
-        right: -34%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .pro-text h4 {
+    font-size: 15px;
+  }
+  .pro-text .paragraph2 {
+    right: -34%;
+  }
 }
 /*=======BAG CSS=========*/
 
 @media only screen and (max-width: 1406px) {
-    .desc {
-        display: block;
-    }
-    .desc .bag-img-desc .img-bags {
-       text-align: center;
-    }
-    .desc .bag-spc {
-        text-align: center;
-    }
+  .desc {
+    display: block;
+  }
+  .desc .bag-img-desc .img-bags {
+    text-align: center;
+  }
+  .desc .bag-spc {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
-    .box-benefit .foot p {
-        font-size: 14px;
-        width: 100%;
-        font-weight: 500;
-        line-height: 29px;
-    }
+  .box-benefit .foot p {
+    font-size: 14px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 29px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .box-benefit .foot p {
-        font-size: 13px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .box-benefit .foot p {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 922px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .box-benefit .foot p {
-        font-size: 14px;
-        width: 100%;
-        margin: auto;
-        padding: 12px 15px;
-        text-transform: uppercase;
-        font-weight: 600;
-    }
-    .foot h1 {
-        font-size: 23px;
-    }
-    .box-benefit {
-        width: 100%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .box-benefit .foot p {
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .foot h1 {
+    font-size: 23px;
+  }
+  .box-benefit {
+    width: 100%;
+  }
 }
 
-@media only screen and (min-width: 882px) and (max-width: 906px)  {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .box-benefit .foot p {
-        font-size: 11px;
-        font-weight: 600;
-    }
+@media only screen and (min-width: 882px) and (max-width: 906px) {
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .box-benefit .foot p {
+    font-size: 11px;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 856px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .footer-index .first-link {
-        font-size: 11px;
-    }
-    .footer-index .copy {
-        font-size: 12px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .footer-index .first-link {
+    font-size: 11px;
+  }
+  .footer-index .copy {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .box-benefit {
-        padding: 0 0px;
-    }
-    .box-benefit .foot p {
-        font-size: 11px;
-        padding: 12px 0px;
-    }
-    .bags .bags-img-container {
-        font-size: 19px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .box-benefit {
+    padding: 0 0px;
+  }
+  .box-benefit .foot p {
+    font-size: 11px;
+    padding: 12px 0px;
+  }
+  .bags .bags-img-container {
+    font-size: 19px;
+  }
 }
 
 @media only screen and (max-width: 734px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 17px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 17px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 15px;
-    }
-    .desc .bag-img-desc .img-bags {
-        width: 70%;
-        margin: auto;
-    }
-    .desc .bag-img-desc .img-bags img {
-        width: 100%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 15px;
+  }
+  .desc .bag-img-desc .img-bags {
+    width: 70%;
+    margin: auto;
+  }
+  .desc .bag-img-desc .img-bags img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 646px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 12px;
-    }
-    .footer-index {
-        display: grid;
-        text-align: center;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 12px;
+  }
+  .footer-index {
+    display: grid;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 564px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 11px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 538px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 10px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 10px;
+  }
 }
 
 @media only screen and (max-width: 506px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 9px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 9px;
+  }
 }
 
 @media only screen and (max-width: 484px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 8px;
-    }
-    .desc .bag-spc {
-        line-height: 32px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 8px;
+  }
+  .desc .bag-spc {
+    line-height: 32px;
+  }
 }
 
 @media only screen and (min-width: 414px) and (max-width: 456px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 6px;
-    }
-    .foot h1 {
-        font-size: 21px;
-    }
-    .box-benefit .foot {
-        position: relative;
-        left: -3px;
-        width: 100%;
-    }
-    .desc .bag-img-desc .img-bags img {
-        width: 166%;
-        position: relative;
-        left: -41px;
-    }
-    .bags .bags-img-container {
-        font-size: 9px;
-    }
-    .box-benefit .foot p {
-        font-size: 9px;
-        text-align: justify;
-        font-weight: 500;
-    }
-    .box-benefit .foot {
-        position: relative;
-        left: -10px;
-        width: 112%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 6px;
+  }
+  .foot h1 {
+    font-size: 21px;
+  }
+  .box-benefit .foot {
+    position: relative;
+    left: -3px;
+    width: 100%;
+  }
+  .desc .bag-img-desc .img-bags img {
+    width: 166%;
+    position: relative;
+    left: -41px;
+  }
+  .bags .bags-img-container {
+    font-size: 9px;
+  }
+  .box-benefit .foot p {
+    font-size: 9px;
+    text-align: justify;
+    font-weight: 500;
+  }
+  .box-benefit .foot {
+    position: relative;
+    left: -10px;
+    width: 112%;
+  }
 }
 
 @media only screen and (max-width: 328px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .bags .bags-img-container {
-        font-size: 7px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .bags .bags-img-container {
+    font-size: 7px;
+  }
 }
-
 
 /*=======BAG CSS=========*/
 
 /*=======Contact CSS=========*/
 
 @media only screen and (min-width: 1201px) and (max-width: 1348px) {
-    .main-sec .mail .action {
-        width: 73%;
-    }
+  .main-sec .mail .action {
+    width: 73%;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
-    .main-sec .mail .action {
-        width: 100%;
-    }
+  .main-sec .mail .action {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1170px) {
-    .main-sec .mail .action {
-        left: 13%;
-    }
-    .main-sec .mail h4 {
-        font-size: 15px;
-    }
+  .main-sec .mail .action {
+    left: 13%;
+  }
+  .main-sec .mail h4 {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .mail .action form textarea {
-        width: 55%;
-        height: 100px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .mail .action form textarea {
+    width: 55%;
+    height: 100px;
+  }
 }
 
 @media only screen and (max-width: 811px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .wrapper .txt {
-        font-size: 41px;
-    }
-    .run-txt li {
-        font-size: 46px;
-        top: 22px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .wrapper .txt {
+    font-size: 41px;
+  }
+  .run-txt li {
+    font-size: 46px;
+    top: 22px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .wrapper {
-        text-align: center;
-        display: block;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .wrapper {
+    text-align: center;
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 567px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .main-sec .contact-info p {
-        display: block;
-        font-size: 15px;
-    }
-    .main-sec .contact-info a {
-        font-size: 18px;
-    }
-    .main-sec .contact-info p span {
-        font-size: 16px;
-        margin-top: 6px;
-    }
-    .main-sec .mail h4 {
-        letter-spacing: 1px;
-        line-height: 36px;
-        font-size: 14px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .main-sec .contact-info p {
+    display: block;
+    font-size: 15px;
+  }
+  .main-sec .contact-info a {
+    font-size: 18px;
+  }
+  .main-sec .contact-info p span {
+    font-size: 16px;
+    margin-top: 6px;
+  }
+  .main-sec .mail h4 {
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 477px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .mail .action form label {
-        display: block;
-    }
-    .mail .action .msg {
-        display: block;
-        position: inherit;
-    }
-    .mail .action form textarea {
-        width: 59%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .mail .action form label {
+    display: block;
+  }
+  .mail .action .msg {
+    display: block;
+    position: inherit;
+  }
+  .mail .action form textarea {
+    width: 59%;
+  }
 }
 @media only screen and (max-width: 435px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .run-txt li {
-        font-size: 45px;
-        left: -5px;
-    }
-    .run-txt li span::after {
-        top: 3px;
-    }
-    .run-txt li {
-        font-size: 35px;
-    }
-    .mail .action form textarea {
-        width: 64%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .run-txt li {
+    font-size: 45px;
+    left: -5px;
+  }
+  .run-txt li span::after {
+    top: 3px;
+  }
+  .run-txt li {
+    font-size: 35px;
+  }
+  .mail .action form textarea {
+    width: 64%;
+  }
 }
 
 @media only screen and (min-width: 331px) and (max-width: 434px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .mail .action form textarea {
-        width: 85%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .mail .action form textarea {
+    width: 85%;
+  }
 }
 
 @media only screen and (max-width: 330px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .run-txt li span::after {
-        top: 0px;
-    }
-    .run-txt li {
-        font-size: 25px;
-    }
-    .wrapper .txt {
-        font-size: 31px;
-    }
-    .main-sec .mail .action {
-        left: 7%;
-    }
-    .mail .action form textarea {
-        width: 85%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .run-txt li span::after {
+    top: 0px;
+  }
+  .run-txt li {
+    font-size: 25px;
+  }
+  .wrapper .txt {
+    font-size: 31px;
+  }
+  .main-sec .mail .action {
+    left: 7%;
+  }
+  .mail .action form textarea {
+    width: 85%;
+  }
 }
-
 
 /*=======Contact CSS=========*/
 
-
 /*=======SUCCESS CSS=========*/
 
-
 @media only screen and (max-width: 1440px) {
-    .thanks .back-page h5 {
-        top: 65%;
-        left: 50%;
-    }
-    .thanks .back-page a {
-        padding: 11px;
-    }
+  .thanks .back-page h5 {
+    top: 65%;
+    left: 50%;
+  }
+  .thanks .back-page a {
+    padding: 11px;
+  }
 }
 
 @media only screen and (max-width: 1221px) {
-    .thanks-container .content-text p {
-        text-align: center;
-        font-size: 17px;
-    }
-    .thanks-container .content-text h1 {
-        font-size: 33px;
-    }
+  .thanks-container .content-text p {
+    text-align: center;
+    font-size: 17px;
+  }
+  .thanks-container .content-text h1 {
+    font-size: 33px;
+  }
 }
 
 @media only screen and (max-width: 1049px) {
-    .thanks-container .content-text p {
-        font-size: 13px;
-    }
-    .thanks-container .content-text h1 {
-        margin-bottom: 18px;
-        font-size: 28px;
-    }
-    .thanks .back-page h5 {
-        position: relative;
-        top: 423px;
-        left: 5%;
-    }
+  .thanks-container .content-text p {
+    font-size: 13px;
+  }
+  .thanks-container .content-text h1 {
+    margin-bottom: 18px;
+    font-size: 28px;
+  }
+  .thanks .back-page h5 {
+    position: relative;
+    top: 423px;
+    left: 5%;
+  }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1030px){
-    .thanks-container .content-text {
-        position: relative;
-        top: 383px;
-        left: 42%;
-        padding: 117px;
-    }
-    .thanks .back-page h5 {
-        top: 136px;
-    }
+@media only screen and (min-width: 1000px) and (max-width: 1030px) {
+  .thanks-container .content-text {
+    position: relative;
+    top: 383px;
+    left: 42%;
+    padding: 117px;
+  }
+  .thanks .back-page h5 {
+    top: 136px;
+  }
 }
 
 @media only screen and (max-width: 930px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .thanks .thanks-container {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-    .thanks-container .content-text {
-	    position: relative;
-        top: 400px;
-        left: 50%;
-    }
-    .thanks-container .content-text h1 {
-	    font-size: 35px;
-    }
-    .thanks .back-page h5 {
-	    position: absolute;
-	    top: 479px;
-	    left: 50%;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .thanks .thanks-container {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .thanks-container .content-text {
+    position: relative;
+    top: 400px;
+    left: 50%;
+  }
+  .thanks-container .content-text h1 {
+    font-size: 35px;
+  }
+  .thanks .back-page h5 {
+    position: absolute;
+    top: 479px;
+    left: 50%;
+  }
 }
 
 @media only screen and (min-width: 510px) and (max-width: 548px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .thanks-container .content-text h1 {
-        font-size: 28px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .thanks-container .content-text h1 {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (min-width: 414px) and (max-width: 509px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .thanks-container .content-text h1 {
-        font-size: 23px;
-    }
-    .thanks .back-page h5 {
-        top: 483px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .thanks-container .content-text h1 {
+    font-size: 23px;
+  }
+  .thanks .back-page h5 {
+    top: 483px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 413px) {
-    html, body {
-        overflow-x: hidden;
-        min-height: 100vh;
-    }
-    .thanks-container .content-text h1 {
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-    }
-    .thanks-container .content-text p {
-        font-size: 9px;
-    }
-    .thanks .back-page h5 {
-        top: 460px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  .thanks-container .content-text h1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  .thanks-container .content-text p {
+    font-size: 9px;
+  }
+  .thanks .back-page h5 {
+    top: 460px;
+  }
 }
-
 
 /*=======SUCCESS CSS=========*/
 
-
 /*=====Bootstrap CSS=====*/
-
-
-
 
 /*=====Bootstrap CSS=====*/
