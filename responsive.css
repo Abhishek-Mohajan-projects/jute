@@ -346,6 +346,9 @@
   .contact-us .font-icon .copyright {
     font-size: 10px;
   }
+  .main-sec .contact-info h2 {
+    font-size: 1rem;
+  }
 }
 @media only screen and (max-width: 328px) {
   html,
